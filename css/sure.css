@@ -1,0 +1,451 @@
+#header{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px solid #CCCCCC;
+}
+.header-con{
+	width: 1000px;
+	margin: 0 auto;
+}
+#header-left{
+	float: left;
+}
+#header-right{
+	float: right;
+	
+}
+#header-right a{
+	color: #666666;
+}
+#user,#back{
+	color: #e73c90;
+}
+/*logn*/
+#log-tu{
+	width: 1000px;
+	margin: 0 auto;
+	height: 90px;
+}
+#log-left{
+	float: left;
+	padding-top: 18px;
+}
+#log-right{
+	float: right;
+	width: 612px;
+	height: 36px;
+	margin-top: 22px;
+	background: url(../img/car1.jpg);
+}
+#log-right span{
+	display: inline-block;
+	height: 36px;
+	width: 200px;
+	
+	float: left;
+}
+
+.car1{
+	width: 1000px;
+	height: 52px;
+	margin: 0 auto;
+	
+}
+.car-left{
+	float: left;
+}
+.car-right{
+	float: right;
+}
+
+
+/*地址确认界面*/
+#address{
+	width: 960px;
+	height: 250px;
+	margin: 0 auto;
+	border: 1px solid #CCCCCC;
+	padding: 20px;
+	
+}
+.chose{
+	font-weight: 700;
+	margin-bottom: 12px;
+}
+.sure-1,.sure-2,.sure-3,.sure-4,.sure-5{
+	margin-left: 20px;
+}
+#address input{
+	width: 154px;
+	height: 26px;
+	border: 1px solid #CCCCCC;
+	margin-left: 14px;
+	margin-bottom: 12px;
+}
+#provice{
+	margin-bottom: 12px;
+}
+select{
+	width:154px ;
+	margin-left: 10px;
+	height: 26px;
+}
+#sure-5{
+	color:#ff6100 ;
+}
+#sure-5 input{
+	width: 131px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	color: white;
+	background: #ff6100;
+	font-weight: 700;
+	margin-left: 104px;
+	margin-top: 20px;
+	margin-right: 6px;
+}
+
+
+/*支付方式确认界面*/
+#pay{
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: 10px;
+	overflow: hidden;
+	
+}
+
+#yin li{
+	width: 112px;
+	height: 34px;
+	float: left;
+	line-height: 34px;
+	text-align: center;
+	background:#f9f9f9 ;
+	border-radius: 3px 3px 0px 0px;
+	border: 1px solid #C2C2C2;
+	margin-left: 3px;
+	border-bottom: none;
+}
+
+#pay #yin .active{
+	background: #f7e1c1;
+}
+
+#pay-con{
+	width: 958px;
+	border: 1px solid #CCCCCC;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	
+}
+#way{
+	height: 50px;
+	line-height: 50px;
+	color: black;
+	font-weight: 700;
+}
+
+.ch{
+	font-size: 12px;
+	color: black;
+	margin-bottom: 12px;
+}
+.ch input{
+	position: relative;
+	top: 3px;
+	margin-right: 3px;
+}
+
+#money{
+	width: 912px;
+	overflow: hidden;
+	margin: 0 auto;
+	border: 2px solid #C2C2C2;
+	padding: 18px;
+}
+
+.bt{
+	font-size: 12px;
+	height: 40px;
+	line-height: 40px;
+}
+
+
+
+#money ul li{
+	float: left;
+	margin-right: 50px;
+	margin-bottom: 18px;
+}
+/*商品清单相关代码*/
+
+
+
+/*table部分代码*/
+#qin{
+	width: 958px;
+	border: 1px solid #CCCCCC;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding: 12px 20px;
+}
+.the{
+	font-size: 22px;
+	font-weight: 700;
+}
+table{
+	width: 956px;
+	margin: 0 auto;
+    border-spacing: none;
+    margin-top: 20px;
+}
+table tr td{
+	text-align: center;
+}
+.th{
+	background: #fffbf3;
+	
+}
+#bt{
+	border-bottom: 2px solid #ead7b0;
+}
+.th tr th{
+	
+	padding: 5px 0px;
+	border-bottom: 1px solid #ead7b0;
+}
+.fir{
+	width: 500px;
+}
+.sum{
+	width: 956px;
+	margin: 0 auto;
+	height: 170px;
+}
+.shi{
+	color: blue;
+	font-size: 12px;
+}
+.shi span{
+	display: inline-block;
+	width: 116px;
+	height:14px;
+	border: 1px solid sandybrown;
+	color: #ee7344;
+	font-size: 16px;
+	padding: 7px 10px;
+	}
+.you{
+	width: 950px;
+	margin: 0 auto;
+	padding-top: 20px;
+	border: 1px solid #CCCCCC;
+	overflow: hidden;
+}
+.last{
+	background: #f3f3f3;
+	height: 44px;
+	line-height: 44px;
+}
+.col{
+	width: 550px;
+}
+.ti{
+	margin-top: 90px;
+	margin-bottom: 15px;
+	color: #ff0000;
+}
+
+#you-top{
+	
+}
+.liu{
+	float: left;
+}
+.liu input{
+	width: 390px;
+	height: 19px;
+	border: 1px solid #CCCCCC;
+}
+#yan{
+	float: right;
+}
+#yan span{
+	padding-right: 20px;
+}
+#you-right{
+	float: right;
+	margin-right: 20px;
+	margin-top: 30px;
+	width: 170px;
+	border-bottom: 1px solid #CCCCCC;
+}
+#you-right p{
+	height: 24px;
+	line-height: 24px;
+	font-size: 16px;
+	color: black;
+}
+
+#goumai{
+	width: 972px;
+	margin: 0 auto;
+	height: 60px;
+	line-height: 60px;
+	background: #fffbf3;
+	padding-left: 28px;
+}
+
+.gou-1{
+	color: #ee6a1a;
+	float: left;
+}
+
+#you-bot{
+     margin-top:50px;
+     margin-bottom: 30px;
+     width: 172px;
+     float: right;
+}
+#you-bot p{
+	font-size: 12px;
+	height: 24px;
+	line-height: 24px;
+}
+#you-bot p span{
+	color: #ff8d28;
+	float: right;
+	padding-right: 20px;
+}
+#yu{
+	width: 100%;
+	height: 55px;
+	line-height: 55px;
+	background: #fffbf3;
+	border-bottom: 1px dotted #CCCCCC;
+}
+#yu p{
+	padding-right: 40px;
+	font-size: 12px;
+	color: black;
+	float: right;
+}
+
+
+/*支付*/
+#zhifu{
+	width:100%;
+	height: 58px;
+	background: #fffbf3;
+}
+#zhifu p{
+	float: right;
+}
+
+#time{
+	height: 58px;
+	line-height: 58px;
+	color: black;
+	font-size: 12px;
+}
+.vn{
+	margin-left: 14px;
+	margin-right: 14px;
+	font-size: 16px;
+	color: black;
+	font-weight: 600;
+	margin-top: 10px;
+}
+.vn span{
+	font-size: 24px;
+	font-weight:600;
+	color: #ff912f;
+}
+
+.vn input{
+	width: 130px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: white;
+	font-size: 16px;
+	font-weight: 600;
+	background:#ff912f;
+	border: none;
+	outline: none;
+	margin-left: 14px;
+}
+.vn b{
+	font-weight: normal;
+	position: relative;
+    color: black;
+    font-weight: 700;
+}
+
+table tr{
+	height: 40px;
+	line-height: 40px;
+	
+}
+table td img{
+	width: 80px;
+	height: 80px;
+	margin-top: 20px;
+}
+table td span{
+	display: block;
+}
+
+.you{
+	position: relative;
+}
+
+.address{
+	position: absolute;
+	height: 150px;
+	top: 55px;
+	left: 15px;
+	overflow: hidden;
+}
+.address .box{
+	overflow: hidden;
+	margin: 10px 0;
+	border: 1px #CCCCCC solid;
+	height: 20px;
+	line-height: 20px;
+	cursor: pointer;
+}
+.address .box div{
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

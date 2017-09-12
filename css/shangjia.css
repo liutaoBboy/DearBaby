@@ -1,0 +1,239 @@
+#banner{
+	width: 100%;
+	overflow: hidden;
+	margin-top: -3px;
+	height: 609px;
+}
+#banner img{
+	width: 100%;
+	overflow: hidden;
+    height: 609px;
+}
+#sh-con{
+	width: 1080px;
+	margin: 0 auto;
+	text-align: center;
+	height: 839px;
+}
+#sh-con h2{
+	height: 42px;
+	line-height: 42px;
+	font-size:38px;
+	padding-top: 54px;
+	
+}
+#sh-con h2 b{
+	color: #ff5d5e;
+}
+#line{
+	width: 175px;
+	height: 6px;
+	background: black;
+	margin: 20px auto 54px;
+}
+#sha li{
+	width: 329px;
+	color: white;
+	margin-right: 31px;
+	float: left;
+	border-bottom: 1px solid #cfcfcf;
+}
+#sha-1 h3{
+	height: 75px;
+	line-height: 50px;
+	font-size: 30px;
+	padding-top: 25px;
+	
+}
+.text{
+	background: #ff5d5e;
+	height: 303px;
+}
+.text p{
+	font-size: 18px;
+	line-height: 36px;
+	padding: 0 30px;
+}
+#sha-1 .num{
+	height: 134px;
+    width: 100%;
+    background: #fff url(../img/step1.png) center center no-repeat;
+}
+#sh #sha-2 li{
+	border: none;
+	border-top: 1px solid #cfcfcf;
+}
+#sha-2 .num{
+	height: 134px;
+    width: 100%;
+    background: #fff url(../img/step2.png) center center no-repeat;
+}
+#sha-2 .phone{
+	height: 217px;
+    width: 100%;
+    background: #ff5d5e url(../img/step2img.jpg) left top no-repeat;
+}
+#sha-2 h3{
+	font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    padding-top: 80px;
+}
+#sha-2 p{
+	padding: 0 44px 0;
+    font-size: 18px;
+    line-height: 36px;
+}
+#sha-3{
+	margin-right: 0;
+	float: left;
+}
+#sha-3 h3{
+	padding-top: 75px;
+	font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+}
+#sha-3 p{
+	padding: 0 44px 0;
+    font-size: 18px;
+    line-height: 36px;
+}
+#sha-3 .photo{
+	height: 217px;
+    width: 100%;
+    background: #ff5d5e url(../img/step3img.jpg)  no-repeat;
+}
+#sha-3 .num{
+	height: 134px;
+    width: 100%;
+    background: #fff url(../img/step3.png) center center no-repeat;
+}
+.in_sec3 h2{
+	color: #ff5d5e;
+    text-align: center;
+    height: 118px;
+    line-height: 118px;
+    font-size: 30px;
+}
+.in_sec3 h2 span{
+	padding-left: 45px;
+}
+.in_sec3 .inner{
+	width: 1078px;
+    border: 1px solid #ff5d5e;
+    margin: 0 auto 20px;
+}
+.in_sec3 h3{
+	height: 90px;
+    line-height: 90px;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 26px;
+    font-weight: normal;
+    color: #ff5d5e;
+}
+ .in_sec3 form{
+	width: 648px;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #595959;
+}
+.in_sec3 .inp_sub {
+    width: 174px;
+    height: 38px;
+    line-height: 38px;
+    background: #ff5d5e;
+    color: #fff;
+    border: none;
+    display: block;
+    margin: 30px auto 26px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: "微软雅黑";
+}
+ .in_sec3 li {
+    height: 40px;
+    line-height: 40px;
+    padding-bottom: 8px;
+    }
+    .in_sec3 dl {
+    width: 324px;
+    color: #000000;
+    float: left;
+}
+.in_sec3 dt {
+    width: 45px;
+    float: left;
+}
+ .in_sec3 dd.inp {
+    height: 41px;
+    line-height: 41px;
+    width: 250px;
+    float: left;
+}
+.inner input[type="input"]{
+	background: #fff;
+    border: none;
+    height: 38px;
+    line-height: 38px;
+    width: 223px;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #c9c9c9;
+}
+#lian{
+	background: url(../img/bgbtm.png) no-repeat;
+	height: 488px;
+	margin-top: 55px;
+	color: white;
+}
+#lian-con{
+	width: 1080px;
+	margin: 0 auto;
+	overflow: hidden;
+	
+}
+#lian-con h2{
+	padding: 54px 0 0;
+    text-align: center;
+    font-size: 38px;
+    line-height: 42px;
+    font-weight: normal;
+    color: #fff;
+}
+.line1{
+	height: 6px;
+    width: 175px;
+    background: #fff;
+    margin: 28px auto 34px;
+}
+#lian-con dd{
+	border: 1px solid #f1f1f1;
+    width: 229px;
+    height: 62px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 62px;
+    border-radius: 10px;
+    float: left;
+}
+#lian-con dt{
+	line-height: 64px;
+    padding: 0 10px;
+    font-weight: normal;
+    float: left;
+}
+.outside {
+    height: 32px;
+    overflow: hidden;
+}
+#lian-con .outside dd{
+	border: none;
+	height: 16px;
+	line-height: 16px;
+	float: left;
+	padding: 8px 0;
+	font-size: 16px;
+}

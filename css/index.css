@@ -1,0 +1,349 @@
+
+
+/*抓哟展示区部分*/
+#main{
+	margin-top: -6px;
+	width: 100%;
+	height: 729px;
+	background: url(../img/mdbg.png);
+	
+}
+#maincon{
+	width:965px;
+	padding: 0px 60px 0px 64px;
+	overflow: hidden;
+	margin: 0 auto;
+   background: url(../img/phonesm.png) no-repeat 35px 50px;
+}
+#phone{
+	width: 237px;
+	height: 442px;
+
+	
+	overflow: hidden;
+	float: left;
+	
+	position: relative;
+    top: 132px;	
+    left: -2px;
+	
+	
+}
+#phone-1{
+	
+}
+
+#phone ul{
+	
+    margin-left: 0px;
+ 
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+#phone ul li{
+	float: left;
+}
+#con-right{
+	width: 672px;
+	height: 635px;
+	padding-top: 50px;
+	float: right;
+}
+#bt{
+	width: 672px;
+	height: 172px;
+	float: left;
+	text-align: center;
+}
+
+#erweima img{
+	width: 179px;
+	height: 219px;
+	margin: -45px auto 0;
+	margin-left: 230px;
+}
+#luck{
+    width: 390px;
+    height: 146px;
+   
+    overflow: hidden;
+    margin: 20px auto 0px;
+}
+
+#nav-list{
+	width: 550px;
+	height: 83px;
+	margin: 40px 60px 0;
+}
+#nav-list dl {
+	float:left ;
+	width: 74px;
+	margin: 0 8px;
+}
+
+#con-right #nav-list dl .ac{
+	
+	background: white;
+}
+#con-right #nav-list dl dd .ad{
+	color: white;
+}
+#nav-list dl dt{
+	width: 74px;
+	height: 8px;
+	background:rgb(41, 151, 183);
+	margin-bottom: 24px;
+	
+}
+
+#nav-list dl dd h3{
+	font-size: 18px;
+	color:rgb(41, 151, 183) ;
+	text-align: center;
+}
+#nav-list dl dd p{
+	font-size: 14px;
+	color:rgb(41, 151, 183) ;
+	text-align: center;
+	
+}
+
+
+/*内容部分代码*/
+#con{
+	width: 1080px;
+	height: 442px;
+	margin: 0 auto;
+	margin-top: 80px;
+	overflow: hidden;
+	
+}
+#nav-yuan{
+	width: 1080px;
+	height: 302px;
+	margin: 0 auto;
+}
+
+#nav-yuan li{
+	width: 359px;
+	height: 302px;
+	float: left;
+}
+#nav-yuan li a img{
+	position: relative;
+	left: 90px;
+}
+#nav-yuan li  p{
+	position: relative;
+	left: 120px;
+	 line-height: 126px;
+    padding-bottom: 16px;
+    font-size: 24px;
+    color: #3d4649;
+    font-weight: normal;
+}
+
+#btm{
+	height: 138px;
+    width: 1078px;
+    border: 1px solid #e5e5e5;
+    position: relative;
+}
+
+#btm img{
+	position: absolute;
+	left: 50%;
+	top:50%;
+	margin-left: -166px;
+	margin-top: -46px;
+}
+
+
+/*底部部分代码*/
+#footer{
+	width: 100%;
+	height: 356px;
+	background: #f0f0f0;
+	margin-top: 30px;
+	padding-top: 7px;
+}
+
+#footer-con{
+	width: 1080px;
+	height: 349px;
+	margin: 0 auto;
+	
+}
+#footer-1{
+	margin-top: 30px;
+	border-bottom: 1px solid #d9d9d9;
+}
+#footer-left{
+	width: 672px;
+	height: 149px;
+	float: left;
+	border-right: 1px solid #ccc;
+}
+#footer-left ul{
+	float: left;
+	padding-left: 25px;
+	width: 109px;
+	height: 149px;
+}
+#footer-left ul .first{
+	height: 22px;
+    line-height: 22px;
+    font-weight: bold;
+    padding-bottom: 7px;
+}
+
+#footer-left ul li{
+	height: 24px;
+	line-height: 24px;
+}
+#footer-left ul li a{
+	color: #666666;
+}
+
+
+#weibo{
+	float: left;
+	margin-left: 20px;
+}
+#weibo dl{
+	float: left;
+	margin: 0 19px;
+}
+
+#weibo dl dd{
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+	width:122px;
+	font-size: 14px;
+
+}
+#weibo dl dd a{
+	color: #333333;
+	
+}
+#about-tp{
+	width: 1080px;
+	text-align: center;
+}
+#about{
+	padding-top: 2px;
+	/*width: 1080px;*/
+    /*text-align: center;*/
+    height: 28px;
+    line-height: 28px;
+    margin-left: 200px;
+}
+#about li{
+	float: left;
+}
+#about a{
+	color: #555;
+    padding: 0 20px;
+}
+#about b{
+	font-weight: normal;
+	color: #666666;
+	float: left;
+}
+
+
+/*#link{
+	margin-left: 250px;
+
+}*/
+#lin{
+	position: relative;
+	 width: 500px;
+	height: 25px;
+
+	overflow: hidden;
+	
+}
+#link span{
+	display: inline-block;
+	float: left;
+	height: 25px;
+	line-height: 25px;
+	
+}
+
+#lin  #link-1{
+	
+    display: inline-block; 
+    width: 1500px;
+	line-height: 25px;
+	position: absolute;
+	left: -252px;
+	
+}
+
+#lin  #link-1 a{
+	color: red;
+	display: inline-block;
+	padding: 0 5px;
+	color: #999;
+}
+
+
+#mes{
+	height:14px;
+	line-height: 14px;
+	color: #888;
+}
+
+#tel{
+	height: 44px;
+	line-height: 44px;
+	font-size: 14px;
+	color: #333;
+}
+#tel b{
+	padding-right:170px;
+}
+
+
+
+#img ul{
+	width: 490px;
+	margin: 0 auto;
+}
+#img ul li{
+	padding-right: 10px;
+	float: left;
+}
+
+
+/*首页跨域效果*/
+
+#all-search {
+	position: relative;
+}
+
+#all-search #cross-domain {
+	position: absolute;
+	width: 420px;
+	padding: 0 5px;
+	top: 37px;
+	left: 0px;
+	z-index: 9999999999999;
+	border: 1px solid #CCCCCC;
+	background: #FFFFFF;
+	display: none;
+}
+
+#all-search #cross-domain ul li {
+	width: 420px;
+	height: 20px;
+	line-height: 20px;
+}
+
+#all-search #cross-domain ul li:hover {
+	background: #ccc;
+}

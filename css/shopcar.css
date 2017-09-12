@@ -1,0 +1,343 @@
+#header{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px solid #CCCCCC;
+}
+.header-con{
+	width: 1000px;
+	margin: 0 auto;
+}
+#header-left{
+	float: left;
+}
+#header-right{
+	float: right;
+	
+}
+#header-right a{
+	color: #666666;
+}
+#user,#back{
+	color: #e73c90;
+}
+/*logn*/
+#log-tu{
+	width: 1000px;
+	margin: 0 auto;
+	height: 90px;
+}
+#log-left{
+	float: left;
+	padding-top: 18px;
+}
+#log-right{
+	float: right;
+	width: 612px;
+	height: 36px;
+	margin-top: 22px;
+	background: url(../img/car.jpg);
+}
+#log-right span{
+	display: inline-block;
+	height: 36px;
+	width: 200px;
+	
+	float: left;
+}
+
+.car1{
+	width: 1000px;
+	height: 52px;
+	margin: 0 auto;
+	
+}
+.car-left{
+	float: left;
+}
+.car-right{
+	float: right;
+}
+
+.picture{
+	width: 100px;
+	height: 60px;
+	padding: 10px;
+	border: 1px solid #CCCCCC;
+	margin-top: 10px;
+}
+.chang span{
+	display: inline-block;
+	font-size: 14px;
+	
+	border: 1px solid #CCCCCC;
+	height: 18px;
+	width: 30px;
+	text-align: center;
+	line-height: 18px;
+	
+}
+.chang-left{
+	margin-right: 10px;
+}
+.chang-right{
+	margin-left: 10px;
+}
+/*table部分代码*/
+table{
+	width: 1000px;
+	margin: 0 auto;
+	border: 1px solid #CCCCCC;
+    border-top: 2px solid #edaf31;
+    border-spacing: none;
+}
+table tr td{
+	text-align: center;
+}
+table tbody tr{
+	height: 40px;
+	line-height: 40px;
+	overflow: hidden;
+}
+.th{
+	background: #fffbf3;
+	
+}
+#bt{
+	border-bottom: 2px solid #ead7b0;
+}
+.th tr th{
+	
+	padding: 5px 0px;
+	border-bottom: 1px solid #ead7b0;
+}
+.fir{
+	width: 100px;
+}
+
+.sum{
+	width: 1000px;
+	margin: 0 auto;
+	height: 170px;
+}
+.shi{
+	color: blue;
+	font-size: 12px;
+}
+.shi span{
+	display: inline-block;
+	width: 116px;
+	height:14px;
+	border: 1px solid sandybrown;
+	color: #ee7344;
+	font-size: 16px;
+	padding: 7px 10px;
+	}
+.you{
+	width: 998px;
+	margin: 0 auto;
+	padding-top: 20px;
+	border: 1px solid #CCCCCC;
+	overflow: hidden;
+}
+.last{
+	background: #f3f3f3;
+	height: 44px;
+	line-height: 44px;
+}
+.col{
+	width: 550px;
+}
+.ti{
+	margin-top: 90px;
+	margin-bottom: 15px;
+	color: #ff0000;
+}
+
+#you-left{
+	float: left;
+	padding-left: 20px;
+}
+#you-right{
+	float: right;
+	margin-right: 20px;
+	margin-top: 30px;
+	width: 170px;
+	border-bottom: 1px solid #CCCCCC;
+}
+#you-right p{
+	height: 24px;
+	line-height: 24px;
+	font-size: 16px;
+	color: black;
+}
+#you-right p span{
+	color: orange;
+}
+#goumai{
+	width: 972px;
+	margin: 0 auto;
+	height: 60px;
+	line-height: 60px;
+	background: #fffbf3;
+	padding-left: 28px;
+}
+
+.gou-1{
+	color: #ee6a1a;
+	float: left;
+}
+.zong{
+	float: right;
+	font-size: 14px;
+	color: black;
+}
+#zong{
+	width: 100px;
+	display: inline-block;
+}
+#liji{
+	float: right;
+	width: 130px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: white;
+	font-size: 16px;
+	margin-left: 16px;
+	margin-right: 16px;
+	margin-top: 10px;
+	background: #ff9437;
+}
+#zong{
+	font-size: 22px;
+	color: orange;
+   font-weight: 700;
+   padding-left: 20px;
+}
+
+/*与用户相关的产品*/
+.ab{
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: 37px;
+}
+
+.yu{
+	font-size: 18px;
+	height: 30px;
+	line-height: 30px;
+}
+#ab-con{
+	width: 940px;
+	border: 1px solid #CCCCCC;
+	padding: 20px 20px;
+	overflow: hidden;
+	position: relative;
+}
+.img-ab{
+	float: left;
+	margin-right: 9px;
+}
+
+.img-ab img{
+	width: 145px;
+	height: 145px;
+	border:1px solid #CCCCCC;
+}
+.img-ab p{
+	width: 145px;
+}
+
+#ab-pic{
+	width: 1420px;
+}
+
+#ab-p{
+	width:930px ;
+	overflow: hidden;
+	
+}
+#ab-left,#ab-right{
+	width: 30px;
+	height: 30px;
+	font-size: 24px;
+	color: wheat;
+	font-weight: 700;
+	position: absolute;
+	top: 50%;
+	margin-top: -15px;
+}
+#ab-left{
+	left: 0px;
+}
+#ab-right{
+	right: 0px;
+}
+.price{
+	color: #f6a05e;
+	font-weight: 700;
+	height: 26px;
+	line-height: 26px;
+}
+#ab-con .gw{
+	width: 106px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	background:  #f6a05e;
+	color: white;
+	border-radius: 3px;
+	font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

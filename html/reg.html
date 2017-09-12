@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>亲亲宝贝--注册</title>
+		<link rel="shortcut icon" href="../img/qin.jpg" />
+		<link rel="stylesheet" type="text/css" href="../css/com.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/reg.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/log.css"/>
+		<script type="text/javascript" src="../js/jquery-1.12.4.js" ></script>
+		<script type="text/javascript" src="../js/reg.js" ></script>
+	    <script type="text/javascript" src="../js/localstroage.js" ></script>
+	</head>
+	<body>
+		<div id="main">
+			<div id="log-header">
+				<div class="he-left">
+					<img src="../img/logo265-75-d.gif" />
+				</div>
+				<div class="he-right"></div>
+			</div>
+			
+			<div id="reg-con">
+				<div id="reg-left">
+					<img src="../img/loginbigbg.png" />
+				</div>
+				<div id="reg-right">
+					<form >
+					<p class="reg-1"><span>没有账号？请注册</span><b>已注册？<em class="toLog">登录</em></b></p>
+					<p class="reg-2"><input type="text" placeholder="手机号" id="reg-2" required="required"/></p>
+					<p class="tishi" style="display: none;">请输入正确的手机号</p>
+					<p class="reg-3"><input type="radio" name="sex" id="nv"><label for="nv" >女士</label>
+						<input type="radio" name="sex" id="nan"><label for="nan" >男士</label>
+					</p>
+					<p class="reg-4"><input type="password" placeholder="密码" id="reg-4"/ required="required"></p>
+					<p style="height: 25px; line-height: 25px;color: #f20266;display: none;" id="mi">请输入6-18位密码(以字母开头)</p>
+					<p class="reg-5"><input type="password" placeholder="确认密码" id="sure" required="required"/></p>
+					<p style="height: 25px; line-height: 25px;color: #f20266;display: none;" id="sure1">请确认密码</p>
+					<p class="reg-6"><input type="text" id="reg-6" required="required"/><span class="sheng" id="code"></span><span class="huan">换一张</span></p>
+					<p id="ya">请输入正确的验证码</p>
+					<p class="reg-7"><input type="text" placeholder="验证码" /><span class="messageBtn">
+						获取短信验证码</span></p>
+					<a href="index.html"><p class="reg-8" id="sub">提交</p></a>
+					<p class="reg-9"><input type="radio" checked="checked"/>我已阅读并接受<span>亲亲宝贝服务条款</span></p>
+					</form>
+				</div>
+			</div>
+			
+		<!--底部代码-->
+		<div id="jiao">
+				<p>
+					<a href="#">关于我们</a><span>|</span>
+					
+					<a href="#">联系我们</a><span>|</span>
+					<a href="#">招贤纳士</a><span>|</span>
+					<a href="#">商家入驻</a><span>|</span>
+					<a href="#">友情链接</a><span>|</span>
+				</p>
+				<p style="color: #666666;">© 亲亲宝贝网2003-2014 qinqinbaby.com All Rights Reserved&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;京公安网备11010802015478号 京ICP备11017831号</p>
+			</div>
+			
+		</div>
+	</body>
+</html>

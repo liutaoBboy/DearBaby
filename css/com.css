@@ -1,0 +1,447 @@
+*{
+   margin: 0px;
+   padding: 0px;
+}
+li{
+	list-style: none;
+}
+img{
+	border: none;
+}
+a{
+	text-decoration: none;
+}
+body{
+	font-size: 12px;
+}
+b{
+	color: #666666;
+}
+.clear{
+	clear: both;
+	height: 0px;
+}
+#comheade{
+	width: 100%;
+	height: 110px;
+	background: white;
+	overflow: hidden;
+}
+#conheade-top{
+	height: 30px;
+	line-height: 30px;
+	width: 1080px;
+	text-align: center;
+	padding-top: 4px;
+	margin: 0px auto;
+    color: rgb(102, 102, 102);
+}
+#conheade-top dl{
+	float: right;
+}
+#conheade-top dd{
+	float: right;
+	background: url(../img/phone.png) no-repeat left center;
+}
+#conheade-top a{
+	color: #f00180;
+	padding: 0 6px;
+}
+#conheade-top b{
+	padding: 0 6px;
+    font-weight: normal;
+}
+#conheade-top dt{
+	float: left;
+	
+}
+#conheade-top  dd{
+	float: left;
+	padding-left: 25px;
+	margin-left: 10px;
+}
+#comheade-bottom{
+	height: 76px;
+	width: 1080px;
+	margin: 0 auto;
+}
+#comheade-bottom b{
+	font-weight: normal;
+	padding: 0px 10px;
+}
+#comheade-bottom a{
+	color: #666;
+}
+#comheade-bottom .active{
+	color: #f00180;
+}
+#log{
+	float: left;
+}
+#log img{
+	width: 125px;
+	overflow: hidden;
+}
+#nav-left{
+	padding-left:40px;
+	padding-top: 13px;
+	width: 305px;
+	float: left;
+}
+#nav-left a:hover,#nav-right a:hover{
+	color: rgb(230, 0, 18);
+}
+#search{
+	float: right;
+	width: 536px;
+	padding-top: 4px;
+}
+
+#search form{
+	width:  536px;
+	height: 30px;
+	margin-bottom: 15px;
+	
+}
+#text{
+	border: 2px solid rgb(230, 0, 18);
+	height: 30px;
+	width: 420px;
+	padding: 0 5px;
+	outline: none;
+	float: left;
+}
+#sub{
+	float: right;
+	height: 34px;
+	line-height: 34px;
+	width: 102px;
+	text-align: center;
+	font-size: 18px;
+	color: rgb(255, 255, 255);
+    background: rgb(230, 0, 18);
+    outline: none;
+    border: none;
+}
+#search #nav-right {
+     
+	height: 28px;
+	margin-top: 4px;
+	margin-left: 10px;
+}
+#heade-line{
+	width: 100%;
+	overflow: hidden;
+}
+
+/*底部部分代码*/
+/*底部部分代码*/
+#footer{
+	width: 100%;
+	height: 356px;
+	background: #f0f0f0;
+	margin-top: 30px;
+	padding-top: 7px;
+}
+
+#footer-con{
+	width: 1080px;
+	height: 349px;
+	margin: 0 auto;
+	
+}
+#footer-1{
+	margin-top: 30px;
+	border-bottom: 1px solid #d9d9d9;
+}
+#footer-left{
+	width: 672px;
+	height: 149px;
+	float: left;
+	border-right: 1px solid #ccc;
+}
+#footer-left ul{
+	float: left;
+	padding-left: 25px;
+	width: 109px;
+	height: 149px;
+}
+#footer-left ul .first{
+	height: 22px;
+    line-height: 22px;
+    font-weight: bold;
+    padding-bottom: 7px;
+}
+
+#footer-left ul li{
+	height: 24px;
+	line-height: 24px;
+}
+#footer-left ul li a{
+	color: #666666;
+}
+
+
+#weibo{
+	float: left;
+	margin-left: 20px;
+}
+#weibo dl{
+	float: left;
+	margin: 0 19px;
+}
+
+#weibo dl dd{
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+	width:122px;
+	font-size: 14px;
+
+}
+#weibo dl dd a{
+	color: #333333;
+	
+}
+#about-tp{
+	width: 1080px;
+	text-align: center;
+}
+#about{
+	padding-top: 2px;
+	/*width: 1080px;*/
+    /*text-align: center;*/
+    height: 28px;
+    line-height: 28px;
+    margin-left: 200px;
+}
+#about li{
+	float: left;
+}
+#about a{
+	color: #555;
+    padding: 0 20px;
+}
+#about b{
+	font-weight: normal;
+	color: #666666;
+	float: left;
+}
+
+
+#link{
+	margin-left: 250px;
+
+}
+#lin{
+	position: relative;
+	 width: 500px;
+	height: 25px;
+
+	overflow: hidden;
+	
+}
+#link span{
+	display: inline-block;
+	float: left;
+	height: 25px;
+	line-height: 25px;
+	
+}
+
+#link  #link-1{
+	
+    float: left; 
+    width: 1010px;
+	line-height: 25px;
+	
+	position: absolute;
+	left: 30px;
+}
+
+#link  #link-1 a{
+	color: red;
+	display: inline-block;
+	padding: 0 5px;
+	color: #999;
+}
+
+
+#mes{
+	height:14px;
+	line-height: 14px;
+	color: #888;
+}
+
+#tel{
+	height: 44px;
+	line-height: 44px;
+	font-size: 14px;
+	color: #333;
+}
+#tel b{
+	padding-right:170px;
+}
+
+
+
+#img ul{
+	width: 490px;
+	margin: 0 auto;
+}
+#img ul li{
+	padding-right: 10px;
+	float: left;
+}
+
+
+
+/*弹出框*/
+#server{
+	position: fixed;
+    width: 100px;
+    height: 353px;
+    right: 10px;
+    bottom: 270px;
+    z-index: 999999999;
+    line-height: 0;
+    display: none;
+}
+#vv{
+	position: fixed;
+	right: 0px;
+	top: 87px;
+	
+}
+#v{
+	width: 222px;
+	height: 250px;
+	position: fixed;
+	right: 0px;
+	top: 87px;
+	display: none;
+}
+#v-header{
+	width:190px;
+	height: 32px;
+	padding-left: 16px;
+	padding-right: 16px;
+	background: #445fb0;
+}
+
+#v-header b{
+     display: inline-block;
+     float: left;
+     width: 66px;
+     height: 19px;
+     margin-top: 6px;
+     margin-right: 10px;
+	background: url(../img/creditPop.png) 0 -154px no-repeat;
+}
+#v-header i{
+	display: inline-block;
+	color: white;
+	padding-right:5px;
+	font-size: 12px;
+	font-style: normal;
+}
+#shou{
+	cursor: pointer;
+}
+#v-header strong{
+	
+    display: inline-block;
+    width: 0;
+    height: 0;
+  
+   border-left: 5px solid white;
+   border-top: 5px solid transparent;
+   border-bottom: 5px solid transparent;
+   
+}
+
+#v-header p{
+	float: right;
+	margin-top: 7px;
+}
+#v-con{
+	background: white;
+	width: 209px;
+	height: 82px;
+	padding: 14px 0px 12px 13px;
+}
+
+#v-con h2{
+	width: 195px;
+    height: 19px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    color: #000;
+}
+#v-con dl{
+	margin-top: 10px;
+}
+#v-con dt{
+	
+	float: left;
+    width: 39px;
+    height: 39px;
+    margin-right: 22px;
+    margin-top: 3px;
+    background: url(../img/creditPop.png) -40px 0 no-repeat;
+}
+
+#v-con dd p{
+	height: 17px;
+	margin-bottom: 3px;
+	font-size: 12px;
+	color: gray;
+}
+#v-con dd p span{
+	color: blue;
+}
+
+#v-con dd p i{
+	font-style: normal;
+	padding-left: 30px;
+}
+
+#ii{
+	position: relative;
+	left: -13px;
+	top: 5px;
+}
+
+
+/*弹出框*/
+#server{
+	position: fixed;
+    width: 100px;
+    height: 353px;
+    right: 10px;
+    bottom: 270px;
+    z-index: 99;
+    line-height: 0;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,107 @@
+#banner{
+	width: 100%;
+	overflow: hidden;
+	margin-top:-3px;
+}
+#banner img{
+	width:100%;
+	overflow: hidden;
+}
+#nav,#introheader{
+	background: #333;
+    height: 64px;
+    line-height: 64px;
+    overflow: hidden;
+    width: 100%;
+    margin-top: -7px;
+}
+#nav ul,#introheader ul{
+	width: 1080px;
+	height: 64px;
+	padding-left: 114px;
+    margin: 0 auto;
+	
+}
+#nav ul .ac ,#introheader ul .ac{
+	background: #ef4923;
+}
+#nav ul li,#introheader ul li{
+	float: left;
+	line-height: 64px;
+	height: 64px;
+	padding: 0 50px;
+	color: white;
+	font-size: 18px;
+	
+}
+
+#ab-con1{
+	width: 1080px;
+	margin: 0 auto;
+	padding-top: 35px;
+}
+
+#ab-con2{
+	width: 796px;
+	margin: 0 auto;
+	margin-top: 69px;
+}
+
+#ab-con3{
+	width: 495px;
+	margin: 0 auto;
+	padding-top: 113px;
+}
+
+table{
+	width: 1080px;
+	margin: 0 auto;
+	margin-top: 27px;
+	border-spacing: none;
+	border-collapse: collapse;
+}
+table td{
+	border: 1px solid #CCCCCC;
+	
+}
+#ab-con5{
+	width: 1080px;
+	padding-top: 160px;
+	margin: 0 auto;
+	
+}
+#ab-con6{
+	width:100%;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+#ab-con6 img{
+	height: 100%;
+	width: 100%;
+}
+#introheader{
+	display: none;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

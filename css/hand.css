@@ -1,0 +1,105 @@
+#banner{
+	width: 100%;
+	overflow: hidden;
+	margin-top: -5px;
+}
+#content{
+	width: 100%;
+	
+}
+#content p{
+	width: 100%;
+}
+.pic1,.pic3,.pic5{
+	background: #f3f4f8;
+}
+.pic1 img,.pic2 img,.pic3 img,.pic4 img,.pic5 img,.pic6 img{
+	width: 1080px;
+	margin: 0 auto;
+	display: block;
+}
+.pic6{
+	
+}
+.fo{
+	width: 800px;
+	padding-bottom: 130px;
+	margin: 10px auto;
+}
+
+.fo dl{
+	color: #157bd7;
+    padding: 10px;
+    font-size: 28px;
+    margin: 0 auto;
+    overflow: hidden;
+    font-weight: 700;
+    width:780px;
+    height: 37px;
+    padding: 10px;
+}
+.fo dl dt{
+	float: left;
+	width: 220px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.fo dl dd{
+	width: 65%;
+	float: left;
+}
+.fo dl dd input{
+	color: #157bd7;
+    border: none;
+    border-bottom: 1px solid #157bd7;
+    outline: none;
+    display: block;
+    width: 100%;
+    height: 30px;
+    font-size: 24px;
+}
+#submit{
+	display: block;
+    margin: 10px auto;
+    width: 240px;
+    height: 60px;
+    color: #fff;
+    background: #157bd7;
+    border: none;
+    border-radius: 5px;
+    font-size: 40px;
+}
+#server{
+	position: fixed;
+    width: 100px;
+    height: 353px;
+    right: 10px;
+    bottom: 270px;
+    z-index: 999999999;
+    line-height: 0;
+    display: none;
+}
+#zoom{
+	width: 100%;
+	height: 100%;
+	background: black;
+	opacity: 0.5;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 99;
+	display: none;
+}
+#zoom p{
+	position: fixed;
+	top: 30%;
+	left: 25%;
+	color: black;
+	background: white;
+	width: 600px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 5px;
+	display: none;
+}

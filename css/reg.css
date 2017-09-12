@@ -1,0 +1,218 @@
+input{
+	border:none;
+	outline: none;
+	text-indent: 15px;
+}
+#reg-con{
+	width:1000px;
+	height: 560px;
+	margin: 0 auto;
+}
+#reg-left{
+	width: 430px;
+	height: 335px;
+	margin-top: 50px;
+	margin-left: 50px;
+	float: left;
+}
+#reg-right{
+	width: 370px;
+	height: 472px;
+	margin-top: 30px;
+	float: right;
+}
+.reg-1{
+	font-size: 14px;
+	margin-bottom: 20px;
+	width: 280px;
+}
+.reg-1 b{
+	float: right;
+	font-weight: normal;
+}
+.reg-1 em{
+	color: #f10180;
+	font-style: normal;
+}
+.reg-2{
+	width: 280px;
+	height: 35px;
+	margin-top: 10px;
+}
+.reg-2  input{
+	height: 33px;
+	line-height: 33px;
+	border: 1px solid #bfbdbf;
+	width: 280px;
+	border-radius: 3px;
+}
+#ya{
+	display: none;
+	color: #f43499;
+	height: 25px;
+}
+.tishi{
+color: #f20266;
+height: 25px;
+line-height: 25px;
+
+}
+.reg-3{
+	width: 280px;
+	height: 16px;
+	font-size: 14px;
+	color: black;
+	margin-top: 15px;
+}
+.reg-5{
+	margin-top: 25px;
+}
+.reg-4{
+	margin-top: 25px;
+}
+.reg-4 input,.reg-5 input{
+	height: 35px;
+	line-height: 35px;
+	border:1px solid #bfbdbf;
+	
+	border-radius: 3px;
+	width: 280px;
+}
+
+
+.reg-6 input,.reg-7 input{
+	width: 130px;
+	height: 35px;
+	line-height: 35px;
+	border:1px solid #bfbdbf;
+	
+	border-radius: 3px;
+}
+.reg-6{
+	margin-top: 20px;
+}
+.reg-6 span{
+	display: inline-block;
+}
+
+.sheng{
+	width: 50px;
+	height: 30px;
+	border: 1px solid #CCCCCC;
+	margin-left: 10px;
+	position: relative;
+	top: 0px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 14px;
+}
+
+.reg-6 .huan{
+	color: #ff9710;
+	font-size: 12px;
+	cursor: pointer;
+	margin-left: 5px;
+}
+.reg-7{
+	margin-top: 25px;
+}
+
+.reg-7 span{
+	border: 1px solid #ffbd89;
+    background: #fff5ed;
+    border-radius: 3px;
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    position: relative;
+
+    left: 10px;
+    text-align: center;
+    line-height: 30px;
+}
+.reg-8{
+	
+}
+.reg-8 {
+	width: 140px;
+	height: 40px;
+	margin-top: 25px;
+	color: white;
+	text-align: center;
+	line-height: 40x;
+	font-size: 16px;
+	background: url(../img/aa.png) -142px -1px no-repeat;
+}
+.reg-9{
+	margin-top: 15px;
+}
+.reg-9 span{
+	color: #f43499;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,137 @@
+#main{
+	width: 100%;
+	height:100%;
+	
+}
+#log-header{
+	width: 1000px;
+	height: 80px;
+	margin: 40px auto 50px auto;
+}
+.he-left{
+	float: left;
+}
+.he-right{
+	float: right;
+	width: 445px;
+    height: 28px;
+    background-position: 0px -188px;
+    margin-top: 22px;
+    background-image: url(../img/aa.png);
+    background-repeat: no-repeat;
+}
+#con{
+	width: 1000px;
+	height: 600px;
+	margin: 0 auto;
+}
+#con-left{
+	float: left;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+#con-right{
+	float: right;
+	margin-top: 30px;
+	width: 370px;
+	height: 332px;
+}
+.please{
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+.please b{
+	font-weight: 700;
+	color: black;
+}
+#te{
+	margin-top: 10px;
+}
+#te input,#pass input{
+	padding-left: 5px;
+	width: 270px;
+	height: 35px;
+	border-radius: 5px;
+	outline: none;
+	
+}
+.tishi,.ti{
+	height: 36px;
+	line-height: 36px;
+}
+#log{
+	margin-top: 30px;
+	margin-bottom: 15px;
+	background-image: url(../img/aa.png);
+    background-repeat: no-repeat;
+    background-position: -142px -1px;
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+/*#log input{
+	border: none;
+	background: none;
+	color: white;
+	
+	
+}*/
+.check{
+	color: #666666;
+}
+.check input{
+	position: relative;
+    top: 3px;
+}
+.check span{
+	padding-left: 100px;
+}
+.check em{
+	font-style: normal;
+	color: #f10180;
+	padding-left: 10px;
+}
+.hezuo{
+	margin-top: 30px;
+	width: 280px;
+	overflow: hidden;
+	border-top: 1px dashed #eeeeee;
+	padding-top: 30px;
+}
+.hezuo span{
+	display: inline-block;
+	width: 24px;
+	height:28px;
+	margin-right: 5px;
+	position: relative;
+	top: 7px;
+	
+}
+#pass{
+	margin-top: 20px;
+}
+.one{
+	background: url(../img/aa.png) -142px -122px no-repeat;
+}
+.two{
+	background: url(../img/aa.png) -166px -122px no-repeat;
+}
+.three{
+	background: url(../img/aa.png) -214px -122px no-repeat; 
+}
+#jiao{
+	width: 1000px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	margin: 0 auto;
+}
+#jiao a{
+	padding: 0 11px;
+	font-size: 14px;
+	color: #555555;
+}

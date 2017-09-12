@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>亲亲宝贝--畅购之旅</title>
+		<link rel="shortcut icon" href="../img/qin.jpg" />
+		<link rel="stylesheet" type="text/css" href="../css/com.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/sure.css"/>
+		<script type="text/javascript" src="../js/jquery-1.12.4.js" ></script>
+		<script type="text/javascript" src="../js/su.js" ></script>
+		<script type="text/javascript" src="../js/address.js" ></script>
+		<script type="text/javascript" src="../js/save.js" ></script>
+		<script type="text/javascript" src="../js/index.js" ></script>
+		
+		
+	</head>
+	<body>
+		 <div id="header">
+	  	<div class="header-con">
+	  <div id="header-left">你好，<span id="hello" style="color: #F00180;">您好</span><span id="back"></span></div>
+	  <div id="header-right"><a href="#">我的订单</a><span>|</span><a href="#">会员中心</a><span>|</span><a href="#">购物车</a><span>|</span><a href="#">关注</a></div>
+	  </div>
+	  </div>
+	  
+	  
+	    
+	  <!--logn图层-->
+	  <div id="log-tu">
+	  	<div id="log-left"><img src="../img/logo265-75-d.gif"/></div>
+	  	<div id="log-right" >
+	  		<a href="shopcar.html"><span class="car"></span></a>
+	  		<span class="sure"></span>
+	  		<span class="tijiao"></span>
+	  	</div>
+	  </div>
+	  <div class="clear"></div>
+	    <div class="car1">
+	  	<div class="car-left"><img src="../img/sure.jpg"/></div>
+	  	<div class="car-right"><img src="../img/img/zheng.jpg"/></div>
+	  </div>
+	  
+	  <!--收货地址确认-->
+	  <div id="address">
+	  	<form>
+	  		<p class="chose">选择收货地址</p>
+	  		<p class="sure-1">收货人姓名：<input type="text" id="person"/ ></p>
+	  		<p class="sure-2">&nbsp;&nbsp;&nbsp;地址：
+	  		 <select name="province" id="provice" >
+	  		 	<option selected="selected" class="chose">选择省/直辖市</option>
+                     
+             </select>
+	  		 <select name="city" id="city" >
+                  <option selected="selected" class="chose">选择市</option>
+             </select>
+             <select name="addr" id="addr">
+                  <option selected="selected" class="chose">选择县/区</option>
+             </select>
+	  		</p>
+	  		<p class="sure-3">&nbsp;&nbsp;&nbsp;邮编：<input type="text" id="email2"></p>
+	  		<p class="sure-4"> &nbsp;联系电话：<input type="text" id="telphone2"></p>
+	     	<p id="sure-5" style="width: 310px;"><input type="submit" value="保存收货人信息" id="save">返回购物车</p>
+	  	</form>
+	  </div>
+	  
+	  
+	  <!--支付界面-->
+	  <div id="pay">
+	  	   <ul id="yin">
+	  	   	<li class="active">银行卡</li>
+	  	   	<li>支付品牌</li>
+	  	   </ul>
+	  	   <div class="clear"></div>
+	  	   <div id="pay-con">
+	  	   	<p id="way">支付方式</p>
+	  	   	<p class="ch"><input type="radio"/>选择支付方式支付</p>
+	  	   	<div id="money">
+	  	   		<p class="bt">银行卡</p>
+	  	   		<ul>
+	  	   			<li><img src="../img/img1/z_42.gif"/></li>
+	  	   			<li><img src="../img/img1/zz_03.gif"/></li>
+	  	   			<li><img src="../img/img1/zz_05.gif"/></li>
+	  	   			<li><img src="../img/img1/zz_07.gif"/></li>
+	  	   			<div class="clear"></div>
+	  	   			<li><img src="../img/img1/zz_18.gif"/></li>
+	  	   			<li><img src="../img/img1/zz_15.gif"/></li>
+	  	   			<li><img src="../img/img1/zz_16.gif"/></li>
+	  	   			<li><img src="../img/img1/zz_17.gif"/></li>
+	  	   			<li><img src="../img/img1/zz_23.gif"/></li>
+	  	   			<li><img src="../img/img1/zz_24.gif"/></li>
+	  	   			<li><img src="../img/img1/zz_25.gif"/></li>
+	  	   			<li><img src="../img/img1/zz_26.gif"/></li>
+	  	   			<li><img src="../img/img1/zz_31.gif"/></li>
+	  	   			<li><img src="../img/img1/zz_32.gif"/></li>
+	  	   			<li><img src="../img/img1/zz_33.gif"/></li>
+	  	   			<li><img src="../img/img1/zz_34.gif"/></li>
+	  	   			
+	  	   			<li><img src="../img/img1/zz_39.gif"/></li>
+	  	   			<li><img src="../img/img1/zz_40.gif"/></li>
+	  	   			<li><img src="../img/img1/zz_41.gif"/></li>
+	  	   			<li><img src="../img/img1/zz_42.gif"/></li>
+	  	   			<li><img src="../img/img1/zz_47.gif"/></li>
+	  	   			<li><img src="../img/img1/zz_48.gif"/></li>
+	  	   			
+	  	   		</ul>
+	  	   	</div>
+	  	   </div>
+	  </div>
+	  
+	  <!--商品清单栏-->
+	  <div id="qin">
+	  	<p class="the">商品清单</p>
+	    <table>
+	   <thead class="th">
+	  		<tr id="bt ">
+	  			<th class="fir" colspan="2">商品信息</th>
+	  			<th>单价（元）</th>
+	  			<th>数量（件）</th>
+	  			<th>小计</th>
+	  		</tr>
+	  		<tr>
+	  			<th colspan="5" style=" text-align: left; padding-left: 10px;">由<span>北京市亲亲宝贝科技有限管理有限公司</span>发货</th>
+	  		</tr>
+	    </thead>
+	  	<tbody>
+	  		
+	  	</tbody>
+	  </table>
+	   <div class="you">
+	  	<div id="you-top">
+	  		<p class="liu" >买家留言：<input type="text" placeholder="内容在100字以内" /></p>
+	  		<p id="yan">
+	  			满减优惠:<span>￥0.00</span>
+	  			运费:<span>￥0.00</span>
+	  			订单金额:<span>￥0.00</span>
+	  		</p>
+	  	</div>
+	  	<div class="clear"></div>
+	  	<div id="you-bot">
+	  		
+	  		<p>商品金额：<span id="qian1">￥0.00</span></p>
+	  		<p>满减优惠：<span>￥0.00</span></p>
+	  		<p>优惠券：<span>￥0.00</span></p>
+	  		<p>运费：<span>￥0.00</span></p>
+	  		
+	  	</div>
+	  	
+	  	<div class="address">
+	  		
+	  	</div>
+	  	
+	  </div>
+	  <!--使用账户余额-->
+	  <div id="yu">
+	  	<p><input type="checkbox"/>使用账户余额</p>
+	  </div>
+	  <!--支付-->
+	  <div id="zhifu">
+	  	<p class="vn"><b>应付金额:</b><span id="qian2">￥0.00</span><a href=""><input type="button" value="立即购买" id="su"></a></p>
+	  	<p id="time">请在确认订单后72小时内支付</p>
+	  	
+	  </div>
+	  </div>
+	  
+	  
+	     <!--底部代码-->
+	  <div id="footer">
+	  	<div id="footer-con">
+	  		<div id="footer-1">
+	  		<div id="footer-left">
+	  			<ul>
+	  				<li><a href="#" class="first">新手入门</a></li>
+	  				<li><a href="#">购物指南</a></li>
+	  				<li><a href="#">会员介绍</a></li>
+	  				<li><a href="#">服务协议</a></li>
+	  				<li><a href="#">联系客服</a></li>
+	  			</ul>
+	  			<ul>
+	  				<li><a href="#" class="first">售后服务</a></li>
+	  				<li><a href="#">退款说明</a></li>
+	  				<li><a href="#">退货政策</a></li>
+	  				<li><a href="#">换货政策</a></li>
+	  				<li><a href="#">顾客意见</a></li>
+	  			</ul>
+	  			<ul>
+	  				<li><a href="#" class="first">支付方式</a></li>
+	  				<li><a href="#">货到付款</a></li>
+	  				<li><a href="#">在线支付</a></li>
+	  				<li><a href="#">优惠券使用</a></li>
+	  			</ul>
+	  			<ul>
+	  				<li><a href="#" class="first">配送方式</a></li>
+	  				<li><a href="#">配送政策</a></li>
+	  				<li><a href="#">配送范围</a></li>
+	  				<li><a href="#">配送服务查询</a></li>
+	  				<li><a href="#">配送运费</a></li>
+	  			</ul>
+	  			<ul>
+	  				<li><a href="#" class="first">常见问题</a></li>
+	  				<li><a href="#">购物需知</a></li>
+	  				<li><a href="#">商品验货与签收</a></li>
+	  				<li><a href="#">大宗商品购买</a></li>
+	  				<li><a href="#">找回密码</a></li>
+	  			</ul>
+	  		</div>
+	  		<div id="weibo">
+	  			<dl>
+	  				<dt>
+	  					<img src="../img/wx.jpg" />
+	  				</dt>
+	  				<dd><a href="#">亲亲宝贝官方微信</a></dd>
+	  			</dl>
+	  			<dl>
+	  				<dt><img src="../img/xl.jpg"/></dt>
+	  				<dd><a href="#">亲亲宝贝新浪微博</a></dd>
+	  			</dl>
+	  			
+	  		</div>
+	  		<div class="clear"></div>
+	  		</div>
+	  		<div id="about-tp">
+	  		<ul id="about">
+	  			<li><a href="#">关于我们</a></li><b>|</b>
+	  			<li><a href="#">爱计划公益活动</a></li><b>|</b>
+	  			<li><a href="#">中国儿童服装周</a></li><b>|</b>
+	  			<li><a href="#">联系我们</a></li><b>|</b>
+	  			<li><a href="#">招贤纳士</a></li><b>|</b>
+	  			<li><a href="#">商家入驻</a></li>
+	  		</ul>
+	  		
+	  		<div id="link">
+	  			<span>友情链接:</span>
+	  			<div id="lin">
+	  			<div id="link-1">
+	  				<a href="#">91游戏网</a>
+	  				<a href="#">系统天堂</a>
+	  				<a href="#">绿色先锋</a>
+	  				<a href="#">化妆品代理</a>
+	  				<a href="#">便玩家</a>
+	  				<a href="#">西西软件园</a>
+	  				
+	  				<a href="#">就去天空</a>
+	  				<a href="#">当下软件园</a>
+	  				<a href="#">手机中国</a>
+	  				<a href="#">辛哲宝</a>
+	  				<a href="#">9553下载</a>
+	  				<a href="#">绿色资源网</a>
+	  				<a href="#">天极下载</a>
+	  				<a href="#">网侠软件</a>
+	  				<a href="#">友情手机网站</a>
+	  				
+	  				
+	  			</div>
+	  			</div>
+	  		</div>
+	  		<div class="clear"></div>
+	  		<div id="mes">©&nbsp;&nbsp;亲亲宝贝网2003-2014 qinqinbaby.com All Rights Reserved&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;京公安网备11010802015478号 京ICP备11017831号-1</div>
+	  		<div id="tel">
+	  		<b><img src="../img/phone.jpg"/></b>
+	  		客服热线：400-610-9993 周一~周日 9:00~21:00
+	  		</div>
+	  	
+	  		<div id="img">
+	  			<ul>
+	  				<li>
+	  					<a href="#"><img src="../img/lice1.jpg"/></a>
+	  				</li>
+	  				<li>
+	  					<a href="#"><img src="../img/lice3.jpg"/></a>
+	  				</li>
+	  			</ul>
+	  		</div>
+	  			</div>
+	  	</div>
+	  	
+	  	
+	  	
+	  	
+	  </div>
+	   
+	   
+	   <!--弹出框层-->
+	   <div id="server">
+	   	<img src="../img/fix01.png" />
+	   	<img src="../img/fix02.png" />
+	   	<img src="../img/fix03.png" />
+	   	<img src="../img/fix04.png" />
+	   	<img src="../img/fix05.png" />
+	   </div>
+	</body>
+	   
+</html>
